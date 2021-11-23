@@ -16,9 +16,7 @@ class LocalDevelopmentConfig(Config):
         SQLITE_DB_DIR, "testdb.sqlite3"
     )
     DEBUG = True
-    SECRET_KEY = "23y9afguygf7geyfg"
-    SECURITY_PASSWORD_HASH = "bcrypt"
-    SECURITY_PASSWORD_SALT = "really super secret"
+
     SECURITY_REGISTERABLE = True
     SECURITY_SEND_REGISTER_EMAIL = False
     SECURITY_UNAUTHORIZED_VIEW = None
